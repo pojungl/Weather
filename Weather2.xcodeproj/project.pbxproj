@@ -7,13 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		20D8003419C0CBAFBB1D0426 /* libPods-Weather2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8038C38E976EEE4A229F24E5 /* libPods-Weather2.a */; };
 		EC1A74B71DCB647200B2EF60 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1A74B61DCB647200B2EF60 /* main.m */; };
 		EC1A74BA1DCB647200B2EF60 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1A74B91DCB647200B2EF60 /* AppDelegate.m */; };
 		EC1A74BC1DCB647200B2EF60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC1A74BB1DCB647200B2EF60 /* Assets.xcassets */; };
 		EC1A74BF1DCB647200B2EF60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC1A74BD1DCB647200B2EF60 /* LaunchScreen.storyboard */; };
+		EC1A74CB1DCB651F00B2EF60 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1A74CA1DCB651F00B2EF60 /* MainViewController.m */; };
+		EC1A74CE1DCB6B6300B2EF60 /* NowDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1A74CD1DCB6B6300B2EF60 /* NowDataModel.m */; };
+		EC1A74D11DCB6C7C00B2EF60 /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1A74D01DCB6C7C00B2EF60 /* MainView.m */; };
+		EC1A75001DCB6DC400B2EF60 /* ChineseString.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1A74D51DCB6DC400B2EF60 /* ChineseString.m */; };
+		EC1A75011DCB6DC400B2EF60 /* pinyin.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1A74D71DCB6DC400B2EF60 /* pinyin.m */; };
+		EC1A75021DCB6DC400B2EF60 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1A74DA1DCB6DC400B2EF60 /* FMDatabase.m */; };
+		EC1A75031DCB6DC400B2EF60 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1A74DC1DCB6DC400B2EF60 /* FMDatabaseAdditions.m */; };
+		EC1A75041DCB6DC400B2EF60 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1A74DE1DCB6DC400B2EF60 /* FMDatabasePool.m */; };
+		EC1A75051DCB6DC400B2EF60 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1A74E01DCB6DC400B2EF60 /* FMDatabaseQueue.m */; };
+		EC1A75061DCB6DC400B2EF60 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1A74E31DCB6DC400B2EF60 /* FMResultSet.m */; };
+		EC1A75071DCB6DC400B2EF60 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EC1A74E41DCB6DC400B2EF60 /* Info.plist */; };
+		EC1A75081DCB6DC400B2EF60 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EC1A74E61DCB6DC400B2EF60 /* Info.plist */; };
+		EC1A75091DCB6DC400B2EF60 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1A74E81DCB6DC400B2EF60 /* MASCompositeConstraint.m */; };
+		EC1A750A1DCB6DC400B2EF60 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1A74EB1DCB6DC400B2EF60 /* MASConstraint.m */; };
+		EC1A750B1DCB6DC400B2EF60 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1A74ED1DCB6DC400B2EF60 /* MASConstraintMaker.m */; };
+		EC1A750C1DCB6DC400B2EF60 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1A74EF1DCB6DC400B2EF60 /* MASLayoutConstraint.m */; };
+		EC1A750D1DCB6DC400B2EF60 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1A74F31DCB6DC400B2EF60 /* MASViewAttribute.m */; };
+		EC1A750E1DCB6DC400B2EF60 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1A74F51DCB6DC400B2EF60 /* MASViewConstraint.m */; };
+		EC1A750F1DCB6DC400B2EF60 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1A74F71DCB6DC400B2EF60 /* NSArray+MASAdditions.m */; };
+		EC1A75101DCB6DC400B2EF60 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1A74FA1DCB6DC400B2EF60 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		EC1A75111DCB6DC400B2EF60 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1A74FC1DCB6DC400B2EF60 /* View+MASAdditions.m */; };
+		EC1A75121DCB6DC400B2EF60 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1A74FF1DCB6DC400B2EF60 /* ViewController+MASAdditions.m */; };
+		EC1A75151DCB6FB200B2EF60 /* SearchView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1A75141DCB6FB200B2EF60 /* SearchView.m */; };
+		EC1A75171DCB72D100B2EF60 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EC1A75161DCB72D100B2EF60 /* libsqlite3.tbd */; };
+		EC1A751B1DCEFD6700B2EF60 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1A751A1DCEFD6700B2EF60 /* TableViewCell.m */; };
+		EC1A751E1DCF042000B2EF60 /* SixDayDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1A751D1DCF042000B2EF60 /* SixDayDataModel.m */; };
+		EC99BB261DD186BC00601116 /* CityNameCache.plist in Resources */ = {isa = PBXBuildFile; fileRef = EC99BB251DD186BC00601116 /* CityNameCache.plist */; };
+		EC99BB2C1DD1988800601116 /* CityNameListView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC99BB2B1DD1988800601116 /* CityNameListView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		032D1CF60643CAAD80D2FC3D /* Pods-Weather2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Weather2.release.xcconfig"; path = "Pods/Target Support Files/Pods-Weather2/Pods-Weather2.release.xcconfig"; sourceTree = "<group>"; };
+		8038C38E976EEE4A229F24E5 /* libPods-Weather2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Weather2.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		908CC67EB62F7A6AF6320475 /* Pods-Weather2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Weather2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Weather2/Pods-Weather2.debug.xcconfig"; sourceTree = "<group>"; };
 		EC1A74B21DCB647200B2EF60 /* Weather2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weather2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC1A74B61DCB647200B2EF60 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EC1A74B81DCB647200B2EF60 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -21,6 +53,64 @@
 		EC1A74BB1DCB647200B2EF60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC1A74BE1DCB647200B2EF60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC1A74C01DCB647200B2EF60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC1A74C91DCB651F00B2EF60 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		EC1A74CA1DCB651F00B2EF60 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		EC1A74CC1DCB6B6300B2EF60 /* NowDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NowDataModel.h; sourceTree = "<group>"; };
+		EC1A74CD1DCB6B6300B2EF60 /* NowDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NowDataModel.m; sourceTree = "<group>"; };
+		EC1A74CF1DCB6C7C00B2EF60 /* MainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainView.h; sourceTree = "<group>"; };
+		EC1A74D01DCB6C7C00B2EF60 /* MainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainView.m; sourceTree = "<group>"; };
+		EC1A74D41DCB6DC400B2EF60 /* ChineseString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChineseString.h; sourceTree = "<group>"; };
+		EC1A74D51DCB6DC400B2EF60 /* ChineseString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChineseString.m; sourceTree = "<group>"; };
+		EC1A74D61DCB6DC400B2EF60 /* pinyin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pinyin.h; sourceTree = "<group>"; };
+		EC1A74D71DCB6DC400B2EF60 /* pinyin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pinyin.m; sourceTree = "<group>"; };
+		EC1A74D91DCB6DC400B2EF60 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		EC1A74DA1DCB6DC400B2EF60 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		EC1A74DB1DCB6DC400B2EF60 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		EC1A74DC1DCB6DC400B2EF60 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		EC1A74DD1DCB6DC400B2EF60 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		EC1A74DE1DCB6DC400B2EF60 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		EC1A74DF1DCB6DC400B2EF60 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		EC1A74E01DCB6DC400B2EF60 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		EC1A74E11DCB6DC400B2EF60 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		EC1A74E21DCB6DC400B2EF60 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		EC1A74E31DCB6DC400B2EF60 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		EC1A74E41DCB6DC400B2EF60 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC1A74E61DCB6DC400B2EF60 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC1A74E71DCB6DC400B2EF60 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		EC1A74E81DCB6DC400B2EF60 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		EC1A74E91DCB6DC400B2EF60 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		EC1A74EA1DCB6DC400B2EF60 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		EC1A74EB1DCB6DC400B2EF60 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		EC1A74EC1DCB6DC400B2EF60 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		EC1A74ED1DCB6DC400B2EF60 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		EC1A74EE1DCB6DC400B2EF60 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		EC1A74EF1DCB6DC400B2EF60 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		EC1A74F01DCB6DC400B2EF60 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		EC1A74F11DCB6DC400B2EF60 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		EC1A74F21DCB6DC400B2EF60 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		EC1A74F31DCB6DC400B2EF60 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		EC1A74F41DCB6DC400B2EF60 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		EC1A74F51DCB6DC400B2EF60 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		EC1A74F61DCB6DC400B2EF60 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		EC1A74F71DCB6DC400B2EF60 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		EC1A74F81DCB6DC400B2EF60 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		EC1A74F91DCB6DC400B2EF60 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		EC1A74FA1DCB6DC400B2EF60 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		EC1A74FB1DCB6DC400B2EF60 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		EC1A74FC1DCB6DC400B2EF60 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		EC1A74FD1DCB6DC400B2EF60 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		EC1A74FE1DCB6DC400B2EF60 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		EC1A74FF1DCB6DC400B2EF60 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		EC1A75131DCB6FB200B2EF60 /* SearchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchView.h; sourceTree = "<group>"; };
+		EC1A75141DCB6FB200B2EF60 /* SearchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchView.m; sourceTree = "<group>"; };
+		EC1A75161DCB72D100B2EF60 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		EC1A75191DCEFD6700B2EF60 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		EC1A751A1DCEFD6700B2EF60 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		EC1A751C1DCF042000B2EF60 /* SixDayDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SixDayDataModel.h; sourceTree = "<group>"; };
+		EC1A751D1DCF042000B2EF60 /* SixDayDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SixDayDataModel.m; sourceTree = "<group>"; };
+		EC99BB251DD186BC00601116 /* CityNameCache.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CityNameCache.plist; sourceTree = "<group>"; };
+		EC99BB2A1DD1988800601116 /* CityNameListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityNameListView.h; sourceTree = "<group>"; };
+		EC99BB2B1DD1988800601116 /* CityNameListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityNameListView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,17 +118,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC1A75171DCB72D100B2EF60 /* libsqlite3.tbd in Frameworks */,
+				20D8003419C0CBAFBB1D0426 /* libPods-Weather2.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AAAA268C2486AA73817F7074 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				908CC67EB62F7A6AF6320475 /* Pods-Weather2.debug.xcconfig */,
+				032D1CF60643CAAD80D2FC3D /* Pods-Weather2.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		EC1A74A91DCB647200B2EF60 = {
 			isa = PBXGroup;
 			children = (
+				EC1A74D21DCB6DC400B2EF60 /* 第三方框架库 */,
 				EC1A74B41DCB647200B2EF60 /* Weather2 */,
 				EC1A74B31DCB647200B2EF60 /* Products */,
+				AAAA268C2486AA73817F7074 /* Pods */,
+				F16A543945A96D5AD001F98C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,8 +159,12 @@
 			children = (
 				EC1A74B81DCB647200B2EF60 /* AppDelegate.h */,
 				EC1A74B91DCB647200B2EF60 /* AppDelegate.m */,
+				EC1A74C61DCB64F500B2EF60 /* Controll */,
+				EC1A74C81DCB650A00B2EF60 /* View */,
+				EC1A74C71DCB650000B2EF60 /* Model */,
 				EC1A74BB1DCB647200B2EF60 /* Assets.xcassets */,
 				EC1A74BD1DCB647200B2EF60 /* LaunchScreen.storyboard */,
+				EC99BB251DD186BC00601116 /* CityNameCache.plist */,
 				EC1A74C01DCB647200B2EF60 /* Info.plist */,
 				EC1A74B51DCB647200B2EF60 /* Supporting Files */,
 			);
@@ -71,6 +179,123 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		EC1A74C61DCB64F500B2EF60 /* Controll */ = {
+			isa = PBXGroup;
+			children = (
+				EC1A74C91DCB651F00B2EF60 /* MainViewController.h */,
+				EC1A74CA1DCB651F00B2EF60 /* MainViewController.m */,
+			);
+			path = Controll;
+			sourceTree = "<group>";
+		};
+		EC1A74C71DCB650000B2EF60 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EC1A74CC1DCB6B6300B2EF60 /* NowDataModel.h */,
+				EC1A74CD1DCB6B6300B2EF60 /* NowDataModel.m */,
+				EC1A751C1DCF042000B2EF60 /* SixDayDataModel.h */,
+				EC1A751D1DCF042000B2EF60 /* SixDayDataModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EC1A74C81DCB650A00B2EF60 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EC1A74CF1DCB6C7C00B2EF60 /* MainView.h */,
+				EC1A74D01DCB6C7C00B2EF60 /* MainView.m */,
+				EC1A75131DCB6FB200B2EF60 /* SearchView.h */,
+				EC1A75141DCB6FB200B2EF60 /* SearchView.m */,
+				EC1A75191DCEFD6700B2EF60 /* TableViewCell.h */,
+				EC1A751A1DCEFD6700B2EF60 /* TableViewCell.m */,
+				EC99BB2A1DD1988800601116 /* CityNameListView.h */,
+				EC99BB2B1DD1988800601116 /* CityNameListView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EC1A74D21DCB6DC400B2EF60 /* 第三方框架库 */ = {
+			isa = PBXGroup;
+			children = (
+				EC1A74D31DCB6DC400B2EF60 /* ChineseSorting */,
+				EC1A74D81DCB6DC400B2EF60 /* fmdb */,
+				EC1A74E51DCB6DC400B2EF60 /* Masonry */,
+			);
+			path = "第三方框架库";
+			sourceTree = "<group>";
+		};
+		EC1A74D31DCB6DC400B2EF60 /* ChineseSorting */ = {
+			isa = PBXGroup;
+			children = (
+				EC1A74D41DCB6DC400B2EF60 /* ChineseString.h */,
+				EC1A74D51DCB6DC400B2EF60 /* ChineseString.m */,
+				EC1A74D61DCB6DC400B2EF60 /* pinyin.h */,
+				EC1A74D71DCB6DC400B2EF60 /* pinyin.m */,
+			);
+			path = ChineseSorting;
+			sourceTree = "<group>";
+		};
+		EC1A74D81DCB6DC400B2EF60 /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				EC1A74D91DCB6DC400B2EF60 /* FMDatabase.h */,
+				EC1A74DA1DCB6DC400B2EF60 /* FMDatabase.m */,
+				EC1A74DB1DCB6DC400B2EF60 /* FMDatabaseAdditions.h */,
+				EC1A74DC1DCB6DC400B2EF60 /* FMDatabaseAdditions.m */,
+				EC1A74DD1DCB6DC400B2EF60 /* FMDatabasePool.h */,
+				EC1A74DE1DCB6DC400B2EF60 /* FMDatabasePool.m */,
+				EC1A74DF1DCB6DC400B2EF60 /* FMDatabaseQueue.h */,
+				EC1A74E01DCB6DC400B2EF60 /* FMDatabaseQueue.m */,
+				EC1A74E11DCB6DC400B2EF60 /* FMDB.h */,
+				EC1A74E21DCB6DC400B2EF60 /* FMResultSet.h */,
+				EC1A74E31DCB6DC400B2EF60 /* FMResultSet.m */,
+				EC1A74E41DCB6DC400B2EF60 /* Info.plist */,
+			);
+			path = fmdb;
+			sourceTree = "<group>";
+		};
+		EC1A74E51DCB6DC400B2EF60 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				EC1A74E61DCB6DC400B2EF60 /* Info.plist */,
+				EC1A74E71DCB6DC400B2EF60 /* MASCompositeConstraint.h */,
+				EC1A74E81DCB6DC400B2EF60 /* MASCompositeConstraint.m */,
+				EC1A74E91DCB6DC400B2EF60 /* MASConstraint+Private.h */,
+				EC1A74EA1DCB6DC400B2EF60 /* MASConstraint.h */,
+				EC1A74EB1DCB6DC400B2EF60 /* MASConstraint.m */,
+				EC1A74EC1DCB6DC400B2EF60 /* MASConstraintMaker.h */,
+				EC1A74ED1DCB6DC400B2EF60 /* MASConstraintMaker.m */,
+				EC1A74EE1DCB6DC400B2EF60 /* MASLayoutConstraint.h */,
+				EC1A74EF1DCB6DC400B2EF60 /* MASLayoutConstraint.m */,
+				EC1A74F01DCB6DC400B2EF60 /* Masonry.h */,
+				EC1A74F11DCB6DC400B2EF60 /* MASUtilities.h */,
+				EC1A74F21DCB6DC400B2EF60 /* MASViewAttribute.h */,
+				EC1A74F31DCB6DC400B2EF60 /* MASViewAttribute.m */,
+				EC1A74F41DCB6DC400B2EF60 /* MASViewConstraint.h */,
+				EC1A74F51DCB6DC400B2EF60 /* MASViewConstraint.m */,
+				EC1A74F61DCB6DC400B2EF60 /* NSArray+MASAdditions.h */,
+				EC1A74F71DCB6DC400B2EF60 /* NSArray+MASAdditions.m */,
+				EC1A74F81DCB6DC400B2EF60 /* NSArray+MASShorthandAdditions.h */,
+				EC1A74F91DCB6DC400B2EF60 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				EC1A74FA1DCB6DC400B2EF60 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				EC1A74FB1DCB6DC400B2EF60 /* View+MASAdditions.h */,
+				EC1A74FC1DCB6DC400B2EF60 /* View+MASAdditions.m */,
+				EC1A74FD1DCB6DC400B2EF60 /* View+MASShorthandAdditions.h */,
+				EC1A74FE1DCB6DC400B2EF60 /* ViewController+MASAdditions.h */,
+				EC1A74FF1DCB6DC400B2EF60 /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		F16A543945A96D5AD001F98C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC1A75161DCB72D100B2EF60 /* libsqlite3.tbd */,
+				8038C38E976EEE4A229F24E5 /* libPods-Weather2.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,9 +303,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EC1A74C31DCB647200B2EF60 /* Build configuration list for PBXNativeTarget "Weather2" */;
 			buildPhases = (
+				4A2EF5905F4F6536025E5833 /* [CP] Check Pods Manifest.lock */,
 				EC1A74AE1DCB647200B2EF60 /* Sources */,
 				EC1A74AF1DCB647200B2EF60 /* Frameworks */,
 				EC1A74B01DCB647200B2EF60 /* Resources */,
+				4D5212D093E7EC64BACB5971 /* [CP] Embed Pods Frameworks */,
+				32192BC751C6A322C6269877 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -128,20 +356,95 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC1A75081DCB6DC400B2EF60 /* Info.plist in Resources */,
 				EC1A74BC1DCB647200B2EF60 /* Assets.xcassets in Resources */,
+				EC99BB261DD186BC00601116 /* CityNameCache.plist in Resources */,
 				EC1A74BF1DCB647200B2EF60 /* LaunchScreen.storyboard in Resources */,
+				EC1A75071DCB6DC400B2EF60 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		32192BC751C6A322C6269877 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Weather2/Pods-Weather2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A2EF5905F4F6536025E5833 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4D5212D093E7EC64BACB5971 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Weather2/Pods-Weather2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EC1A74AE1DCB647200B2EF60 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC1A74D11DCB6C7C00B2EF60 /* MainView.m in Sources */,
+				EC1A750F1DCB6DC400B2EF60 /* NSArray+MASAdditions.m in Sources */,
+				EC1A75011DCB6DC400B2EF60 /* pinyin.m in Sources */,
+				EC1A75101DCB6DC400B2EF60 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				EC1A74CE1DCB6B6300B2EF60 /* NowDataModel.m in Sources */,
+				EC1A75001DCB6DC400B2EF60 /* ChineseString.m in Sources */,
+				EC1A750D1DCB6DC400B2EF60 /* MASViewAttribute.m in Sources */,
+				EC1A750C1DCB6DC400B2EF60 /* MASLayoutConstraint.m in Sources */,
+				EC1A751E1DCF042000B2EF60 /* SixDayDataModel.m in Sources */,
+				EC1A75091DCB6DC400B2EF60 /* MASCompositeConstraint.m in Sources */,
+				EC99BB2C1DD1988800601116 /* CityNameListView.m in Sources */,
+				EC1A75151DCB6FB200B2EF60 /* SearchView.m in Sources */,
 				EC1A74BA1DCB647200B2EF60 /* AppDelegate.m in Sources */,
+				EC1A75031DCB6DC400B2EF60 /* FMDatabaseAdditions.m in Sources */,
+				EC1A750E1DCB6DC400B2EF60 /* MASViewConstraint.m in Sources */,
+				EC1A751B1DCEFD6700B2EF60 /* TableViewCell.m in Sources */,
+				EC1A75061DCB6DC400B2EF60 /* FMResultSet.m in Sources */,
+				EC1A74CB1DCB651F00B2EF60 /* MainViewController.m in Sources */,
+				EC1A75041DCB6DC400B2EF60 /* FMDatabasePool.m in Sources */,
+				EC1A75051DCB6DC400B2EF60 /* FMDatabaseQueue.m in Sources */,
+				EC1A75121DCB6DC400B2EF60 /* ViewController+MASAdditions.m in Sources */,
+				EC1A750B1DCB6DC400B2EF60 /* MASConstraintMaker.m in Sources */,
 				EC1A74B71DCB647200B2EF60 /* main.m in Sources */,
+				EC1A750A1DCB6DC400B2EF60 /* MASConstraint.m in Sources */,
+				EC1A75021DCB6DC400B2EF60 /* FMDatabase.m in Sources */,
+				EC1A75111DCB6DC400B2EF60 /* View+MASAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,9 +546,11 @@
 		};
 		EC1A74C41DCB647200B2EF60 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 908CC67EB62F7A6AF6320475 /* Pods-Weather2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Weather2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.Weather2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -254,9 +559,11 @@
 		};
 		EC1A74C51DCB647200B2EF60 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 032D1CF60643CAAD80D2FC3D /* Pods-Weather2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Weather2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.Weather2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -282,6 +589,7 @@
 				EC1A74C51DCB647200B2EF60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
